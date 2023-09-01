@@ -1,6 +1,6 @@
 package com.picpaysimplificado.repositories;
 
-import jakarta.transaction.Transaction;
+import com.picpaysimplificado.domain.transaction.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TransactionRepository
